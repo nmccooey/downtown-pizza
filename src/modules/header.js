@@ -7,7 +7,7 @@ function loadHeader() {
   // Company Logo
   const companyLogo = document.createElement("div");
   companyLogo.classList.add("company-logo");
-  companyLogo.innerHTML = `Downtown Pizza <i class="fas fa-pizza-slice"></i>`;
+  companyLogo.innerHTML = `Downtown Pizza &nbsp;<i class="fas fa-pizza-slice"></i>`;
 
   header.appendChild(companyLogo);
 

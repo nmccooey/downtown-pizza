@@ -1,4 +1,5 @@
 import "../css/home.css";
+import pizzaBackground from "../assets/img/pizza-background.jpg";
 
 function loadHome() {
   const homeContainer = document.createElement("div");
