@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #262222;
+  color: white;
+  min-height: 10vh;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-right: 15px;
+}
+
+.company-logo {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
+.company-logo:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+.tab {
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.tab:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
