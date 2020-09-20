@@ -1,4 +1,4 @@
-import "./css/style.css";
+import "./style.css";
 import initialLoad from "./modules/initial.js";
 import loadHome from "./components/home/home.js";
 import loadMenu from "./components/menu/menu.js";
