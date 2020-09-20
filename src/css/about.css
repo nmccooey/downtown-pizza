@@ -35,3 +35,9 @@
   line-height: 1.5;
   margin: 5px;
 }
+
+@media (max-width: 800px) {
+  #about-container {
+    font-size: 1.6em;
+  }
+}
