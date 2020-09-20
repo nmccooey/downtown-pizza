@@ -1,4 +1,4 @@
-#contact-container {
+#home-container {
   height: 100%;
   width: 100%;
   display: flex;
@@ -7,29 +7,15 @@
   justify-content: center;
   font-size: 2.2em;
   color: #fff;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/img/pizza-in-oven.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./pizza-background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
 }
 
-#contact-container > * {
+#home-container > * {
   animation: fadein 1.5s;
-}
-
-.social-icons {
-  margin-top: 10px;
-}
-
-.icon {
-  margin: 5px;
-  color: #fff;
-}
-
-.icon:hover {
-  color: tomato;
 }
 
 @keyframes fadein {
@@ -37,19 +23,15 @@
   to   { opacity: 1; }
 }
 
-.contact-title {
+.home-title {
   text-transform: uppercase;
   text-align: center;
+  margin: 0px 5px 5px 5px;
   font-weight: 400;
-  margin-top: 0px;
-}
-
-#contact-container > p {
-  margin: 5px;
 }
 
 @media (max-width: 800px) {
-  #contact-container {
+  #home-container {
     font-size: 1.6em;
   }
 }

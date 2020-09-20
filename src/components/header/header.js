@@ -1,5 +1,5 @@
 // Creates the header for the page.
-import "../css/header.css";
+import "./header.css";
 
 function loadHeader() {
   const header = document.createElement("header");

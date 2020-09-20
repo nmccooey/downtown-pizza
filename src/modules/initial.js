@@ -1,6 +1,6 @@
-import loadFooter from "./footer";
-import loadHeader from "./header";
-import loadHome from "./home";
+import loadFooter from "../components/footer/footer";
+import loadHeader from "../components/header/header.js";
+import loadHome from "../components/home/home.js";
 
 function initialLoad() {
   let fragment = document.createDocumentFragment();

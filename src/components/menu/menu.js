@@ -1,4 +1,4 @@
-import "../css/menu.css";
+import "./menu.css";
 
 function loadMenu() {
   const menuContainer = document.createElement("div");

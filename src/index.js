@@ -1,9 +1,9 @@
 import "./css/style.css";
 import initialLoad from "./modules/initial.js";
-import loadHome from "./modules/home.js";
-import loadMenu from "./modules/menu.js";
-import loadAbout from "./modules/about.js";
-import loadContact from "./modules/contact.js";
+import loadHome from "./components/home/home.js";
+import loadMenu from "./components/menu/menu.js";
+import loadAbout from "./components/about/about.js";
+import loadContact from "./components/contact/contact.js";
 
 // Append fragment to DOM.
 const content = document.querySelector("#content");

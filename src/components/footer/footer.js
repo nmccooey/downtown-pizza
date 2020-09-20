@@ -1,4 +1,4 @@
-import "../css/footer.css";
+import "./footer.css";
 
 function loadFooter() {
   const footer = document.createElement("footer");

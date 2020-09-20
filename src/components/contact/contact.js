@@ -1,4 +1,4 @@
-import "../css/contact.css";
+import "./contact.css";
 
 function loadContact() {
   const contactContainer = document.createElement("div");
@@ -15,7 +15,6 @@ function loadContact() {
   </div>
 
   `
-
   return contactContainer;
 }
 
